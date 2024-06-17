@@ -10,15 +10,15 @@ export default siteConfig({
 
   // basic site info (required)
   name: '爱语霖，爱生活',
-  domain: 'https://www.notion.so/tinyking86/d2d4eac65083485a88f17a9ef7d91966',
+  domain: 'https://blog.wangjianchao.cn',
   author: '语霖（TinyKing）',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: '爱语霖，爱生活。',
 
   // social usernames (optional)
-  //twitter: 'transitive_bs',
-  //github: 'transitive-bullshit',
+  twitter: 'tinyking86',
+  github: 'tinyking',
   //linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
