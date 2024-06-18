@@ -44,10 +44,6 @@ export const GitHubShareButton: React.FC = () => {
           className={styles.octoBody}
         />
     
-    <AmpAutoAds type="adsense"
-        dataAdClient="ca-pub-9508321495212724">
-  </AmpAutoAds>
-
       </svg>
     </a>
   )
