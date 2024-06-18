@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 import * as React from 'react'
 import Head from 'next/head'
 
@@ -93,7 +92,6 @@ export const PageHead: React.FC<
       async 
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9508321495212724" 
       crossOrigin="anonymous"
-      strategy="afterInteractive"
       ></script>
     </Head>
   )
