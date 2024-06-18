@@ -42,6 +42,11 @@ export const GitHubShareButton: React.FC = () => {
           fill='currentColor'
           className={styles.octoBody}
         />
+    
+    <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-9508321495212724">
+  </amp-auto-ads>
+
       </svg>
     </a>
   )
