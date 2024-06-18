@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import * as React from 'react'
 
 import styles from './styles.module.css'
