@@ -242,6 +242,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
   return (
     <>
       <PageHead
@@ -282,6 +284,10 @@ export const NotionPage: React.FC<types.PageProps> = ({
       />
 
       <GitHubShareButton />
+
+      <amp-auto-ads type="adsense"
+                    data-ad-client="ca-pub-9508321495212724">
+      </amp-auto-ads>
     </>
   )
 }
