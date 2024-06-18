@@ -20,7 +20,7 @@ import { searchNotion } from '@/lib/search-notion'
 import { useDarkMode } from '@/lib/use-dark-mode'
 
 import { Footer } from './Footer'
-import { GitHubShareButton } from './GitHubShareButton'
+// import { GitHubShareButton } from './GitHubShareButton'
 import { Loading } from './Loading'
 import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
@@ -283,11 +283,12 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
-      <GitHubShareButton />
+      {/* <GitHubShareButton /> */}
 
-      <amp-auto-ads type="adsense"
-                    data-ad-client="ca-pub-9508321495212724">
-      </amp-auto-ads>
+      <amp-auto-ads
+        type='adsense'
+        data-ad-client='ca-pub-9508321495212724'
+      ></amp-auto-ads>
     </>
   )
 }
